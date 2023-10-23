@@ -13,4 +13,4 @@ EXPOSE 7860
 EXPOSE 1337
 ENV LANG=ru
 
-CMD ["./start_webui_linux.sh"]
+ENTRYPOINT ["./start_webui_linux.sh"]
