@@ -13,4 +13,5 @@ EXPOSE 7860
 EXPOSE 1337
 ENV LANG=ru
 
-ENTRYPOINT ["start_webui_linux.sh"]
+RUN chmod +x start_webui_linux.sh
+ENTRYPOINT ["./start_webui_linux.sh"]
